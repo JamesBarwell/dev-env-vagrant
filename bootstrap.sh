@@ -11,6 +11,7 @@ cp /vagrant/install-scripts/* /tmp/
 /tmp/install-node-0.12
 apt-get install -y nodejs
 /tmp/install-docker
+usermod -aG docker vagrant
 
 # Install from pip
 pip install ansible
